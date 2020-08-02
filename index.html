@@ -17,23 +17,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Righteous&display=swap"
     rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-
+<script scr= "js/main.js"></script>
 
 </head>
 
 <body onload="interval()">
   <div id="first_parallax"><a name="starting"></a>
 
-    <div class="container first_container">
+    <div class="container-fluid first_container">
 
       <div class="row ">
 
@@ -72,7 +73,7 @@
 
         <div class="row" align="center">
           <div class="col-sm-12 ">
-            <div class="avatar">
+            <div data-aos="zoom-in" class="avatar">
 
               <img src="images/avatar_new.jpg" alt="pfp" ">
 
@@ -121,7 +122,9 @@
         <a name="ABOUT_SECTION"></a>
         <div class="container mt-5 second_container">
           <div class="row py-5" align="center">
-            <div class="col-sm-6">
+            <div  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" class="col-sm-6">
 
   
               <h4>Hi There! I'm Aditya</h4>
@@ -129,27 +132,27 @@
                 my graduation in computer science and have developed a few webpages based on technologies like HTML5,
                 CSS3, and JavaScript and they all are from scratch</p>
 
-              <div class="row mt-5" align="start">
+              <div data-aos="fade-right" class="row mt-5" align="start">
 
                 <div class="col-sm-6">
-                  <p><i class="fa fa-envelope"></i> adityadigant96@yahoo.com</p>
+                  <p><i class="fa fa-envelope"></i>  adityadigant96@yahoo.com</p>
                 </div>
 
 
                 <div class="col-sm-6">
-                  <p><i class="fa fa-calendar"></i> 29/Nov/1999</p>
+                  <p><i class="fa fa-calendar"></i>  29/Nov/1999</p>
                 </div>
               </div>
 
-              <div class="row  location_margin" align="start">
+              <div data-aos="fade-right" class="row  location_margin" align="start">
 
                 <div class="col-sm-6">
-                  <p><i class="fa fa-map-marker"></i> New Delhi, INDIA</p>
+                  <p><i class="fa fa-map-marker"></i>  New Delhi, INDIA</p>
                 </div>
 
 
                 <div class="col-sm-6">
-                  <p><i class="fa fa-phone"></i> +91 1234567890</p>
+                  <p><i class="fa fa-phone"></i>  +91 1234567890</p>
 
                 </div>
               </div>
@@ -158,7 +161,8 @@
             </div>
 
 
-            <div class="col-sm-6 professional_margin">
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="top-center" class="col-sm-6 professional_margin">
 
               <h4>Professional</h4>
               <h6 align="start">HTML5</h6>
@@ -208,7 +212,7 @@
 
               <div class="col-sm-4 my-4  fprowess">
 
-                <i class="fab fa-html5 " style="font-size: 60px;"></i>
+                <i data-aos="flip-left" class="fab fa-html5 " style="font-size: 60px;"></i>
                 <div class="my-4 h6">WEB DEVELOPMENT</div>
                 <p>Content Goes Here. Content Goes Here. Content Goes Here. Content Goes Here. Content Goes Here.
                   Content Goes Here. Content Goes Here. Content Goes Here. Content Goes Here. Content Goes Here. Content
@@ -218,7 +222,7 @@
 
 
               <div class="col-sm-4 my-4 sprowess">
-                <i class="fas fa-laptop-code" style="font-size: 60px;"></i>
+                <i data-aos="flip-left" class="fas fa-laptop-code" style="font-size: 60px;"></i>
                 <div class="my-4 h6">WEBSITE DESIGN</div>
                 <p>Content Goes Here. Content Goes Here. Content Goes Here. Content Goes Here. Content Goes Here.
                   Content Goes Here. Content Goes Here. Content Goes Here. Content Goes Here. Content Goes Here. Content
@@ -227,7 +231,7 @@
 
               <div class="col-sm-4 my-4 tprowess">
 
-                <i class="fas fa-camera-retro" style="font-size: 60px;"></i>
+                <i data-aos="flip-left" class="fas fa-camera-retro" style="font-size: 60px;"></i>
                 <div class="my-4 h6">PHOTOGRAPHY</div>
                 <p>Content Goes Here. Content Goes Here. Content Goes Here. Content Goes Here. Content Goes Here.
                   Content Goes Here. Content Goes Here. Content Goes Here. Content Goes Here. Content Goes Here. Content
@@ -239,10 +243,18 @@
         </div>
 
         <a name="CONTACT_SECTION"></a>
-        <div class="container my-3 fourth_container">
+
+
+
+
+
+         
+        
+        
+        <div data-aos="flip-left" class="container my-3 fourth_container">
           <div class="row py-5 contact_container" align="center">
 
-            <div class="col-lg-12 col-md-12 col-sm-12 mb-5 h4 ">Contact Me</div>
+            <div class="col-lg-12 col-md-12 col-sm-12 my-5 h4 ">Contact Me</div>
 
             <div class="col-lg-4 col-md-4 col-4 my-3"> <a href="tel:+91 1234567890">
                 <i style="font-size: 48px; color: black;" class="fa fa-phone-square" aria-hidden="true"></i>
@@ -259,6 +271,10 @@
           </div>
 
         </div>
+        
+      
+      
+      
 
         <div class="container-fluid my-5 fifth_container">
 
@@ -394,6 +410,14 @@
 
 
 
+        </script>
+        
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+           
+            duration:1100, 
+          });
         </script>
 </body>
 
