@@ -9,7 +9,19 @@ html, body {
     height:100%;
      margin:0px;
      scroll-behavior: smooth;
-    
+     width: 100%;
+     
+  }
+
+  #loader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/preloader.gif);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    z-index:2;
+    background-position: center;
   }
 
   .gotopbtn{
@@ -17,7 +29,7 @@ html, body {
     width: 50px;
     height: 50px;
     background: #000000;
-    bottom: 40px;
+    bottom: 40px; 
     right: 50px;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 100px;
@@ -84,8 +96,16 @@ html, body {
  
 .navbar-toggler {
   border: none;
-  background: transparent !important;
+  background: transparent;
 }
+
+
+
+.menu_link{
+  font-weight: bold;
+  
+}
+
 
 .centered_divs{
     display: block;
@@ -264,6 +284,27 @@ html, body {
   }
   
 }
+
+
+.contact_icon{
+  font-size: 48px; 
+  color : rgb(0, 0, 0);
+ 
+}
+
+.phone:hover{
+  color: #15a84d;
+}
+
+.email:hover{
+color: #c7610f;
+}
+
+.skype:hover{
+  color: #00aff0;
+}
+
+
 
 #comment{
   resize: none;
