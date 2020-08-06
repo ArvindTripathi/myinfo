@@ -291,18 +291,25 @@ html, body {
 .travel{
  
 font-family: 'Kaushan Script', cursive;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px rgb(97, 95, 95);
+  font-weight: bolder;
+  
 }
 
-.arroww{
-  color: #000000;
+.zoom {
+  
+  
+  transition: transform .2s;
+  
+}
+
+.zoom:hover {
+
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.25); 
 }
 
 
-.rounded{
-  box-shadow: 5px 5px  10px rgb(0, 0, 0);
-}
 
 
 .fourth_container{
