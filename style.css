@@ -288,10 +288,22 @@ html, body {
 }
 
 
+ 
+.eduheading {
+  color: #000000;
+  
+
+}
+
+
+.interest_section{
+  background-color:  rgb(250,250,250);
+}
+
 .travel{
  
 font-family: 'Kaushan Script', cursive;
-  font-weight: bolder;
+  
   
 }
 
@@ -312,9 +324,7 @@ font-family: 'Kaushan Script', cursive;
 
 
 
-.fourth_container{
-  background-color:  rgb(250,250,250);
-}
+
 
 .contact_icon{
   font-size: 48px; 
@@ -341,6 +351,7 @@ color: #c7610f;
 }
 
 .fifth_container{
+  background-color:  rgb(250,250,250);
   color: rgb(0, 0, 0);
 
 }
